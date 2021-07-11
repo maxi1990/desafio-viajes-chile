@@ -1,0 +1,90 @@
+/*aqui comienza el codigo */
+nav{
+    background-color: #17A3B8;
+    }
+  
+  /* navbar */
+  .navbar-brand{
+    
+    font-family: "Oswald";
+    font-weight: bold;
+  }
+  
+  /* estilos seccion de trabajos */
+  
+  #Quienes-Somos {
+    background-color: #000000;
+  }
+  
+  #Quienes-Somos div h1{
+    font-size: 52px;
+    font-weight: bold;
+    font-family: "Oswald";
+  }
+  #Quienes-Somos div hr{
+    background-color: #17A3B8;
+    height: 1px;
+    opacity: 1;
+  }
+  #Quienes-Somos h4{
+    font-family: "Oswald";
+  }
+  
+  .icon1{
+    width: 100%;
+    background-color: #17A3B8;
+    }
+  
+    /* estilos para la seccion destacados */
+    #Destacados {
+      background-color: #000000;
+    }
+  
+    #Destacados div h1{
+      font-size: 52px;
+      font-weight: bold;
+      font-family: "Oswald";
+    }
+  
+    #Destacados div hr{
+      background-color: #17A3B8;
+      height: 1px;
+      opacity: 1;
+    }
+  
+  .card img{
+    max-height: 174px;
+    overflow: hidden;
+  }
+  /* estilos para la seccion contacto */
+  
+    #Contacto {
+      background-color: #000000;
+    }
+    #Contacto div h1{
+      font-size: 52px;
+      font-weight: bold;
+      font-family: "Oswald";
+    }
+    #Contacto div hr{
+      background-color: #17A3B8;
+      height: 1px;
+      opacity: 1;
+    }
+    /* pie de pagina "footer" */
+
+  #Footer {
+      background-color: #17a3b8;
+    }
+  #Footer h1{
+      font-family: "Oswald";
+    }
+    
+  /* media query */
+
+  @media only screen and (max-width: 991px){
+    #Quienes-Somos{
+      display: none;
+    }
+  }
+  
